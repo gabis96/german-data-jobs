@@ -1,7 +1,58 @@
 data_jobs_germany
 ==============================
 
-This is a personal interest of mine. What are the most requesteddata jobs? Which city has more data-job offeres? What are the languages requirement? In this project I look forward to do an exploratory data analysis of the job-market related to data in Germany. 
+While searching for data jobs in Germany, a lot of questions started comming up. What are the most 'in demand' data jobs/titles? Which cities have more data related job offers? What are the language requirements? 
+
+In this project I look forward to do an exploratory data analysis of the job-market related to data in Germany, to answer some of my questions. NLP is used to process the job descriptions to get more information of the job offers. 
+
+Roadmap
+------------
+1. Define Problem and Questions
+
+2. Collect Data
+    - Identify and collect the data needed and the sources to get them from.
+    - If dealing with high volume of data, work with Big Data technologies.
+    - Verify the acquired data is applicable and reliable.  
+
+3. Wrangle Data
+    - Explore, organize and clean the data.
+    - Extract relevant information. Use NLP to extract from description.
+    - Enrich the original data with added custom fields.  
+    - Validate and publish data.
+
+4. Explore Data 
+    - Apply basic statistical methods to the data.
+    - Plot variables´ data points to identify distributions.
+    - Discover correlation and causation between features.
+    - Answer initial questions.
+
+5. Create Dashboard in Tablau
+
+6. Build Pipeline 
+
+Python Stack
+------------
+**Math & Machine Learning:** sklearn, numpy.
+
+**Data Manipulation:** pandas (for datasets), requests & BeautifulSoup (for web scrapping).
+
+**Visualization:** mathplotlib, plotly, geopandas, Tablau.
+
+
+Data Stack
+------------
+**Data collection:** web scrapping.
+
+**Data wrangling:** cleaning, structuring, enriching, and validating data.
+
+**Exploratory Data Analisys:** descriptive statistics, correlation and causation.
+
+**NLP:** process natural language (English & German).
+
+**Dashboard** 
+
+**Pipeline Deployment** 
+
 
 Project Organization
 ------------
@@ -51,7 +102,23 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+Initial Assumptions
+------------
+- Most offers state german language as a requirement.
+- Berlin, Munich and Frankfurt rank hights in workers demand (meaning more job offerings in these cities).
+- Berlin and Munich rank hights in english speaking job offers. 
+- Data Analyst or Data Engineer rank highest in demand, comparing to Data Scientist, Machine Learning Engineer, Data Architect, etc.
+- Data Science positions offer higher payments overall.
+- Around 50% of Data Science job offers require a master degree.
+- Hybrid mode is the tendency over on-site or from home.
+
+Results
+------------
+
+
+Future Work
+------------
+
 
 --------
-
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
