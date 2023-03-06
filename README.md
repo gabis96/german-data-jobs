@@ -1,9 +1,9 @@
-data_jobs_germany
+Data Jobs in Germany
 ==============================
 
-While searching for data jobs in Germany, a lot of questions started comming up. What are the most 'in demand' data jobs/titles? Which cities have more data related job offers? What are the language requirements? 
+Comming to Germany impacted my work life. I started to search for data jobs in the country but mainly in Frankfurt, and a lot of questions started arising. What are the most 'in demand' data jobs/titles/positions? Which cities have more data related job offers? What are the language requirements? 
 
-In this project I look forward to do an exploratory data analysis of the job-market related to data in Germany, to answer some of my questions. NLP is used to process the job descriptions to get more information of the job offers. 
+In this project I aim to do an exploratory data analysis of the job-market related to data in Germany, and answer my questions. NLP is used to process the job descriptions to get more information of the job offers, and ML models are built to identify density in german cities.  
 
 Roadmap
 ------------
@@ -25,6 +25,10 @@ Roadmap
     - Plot variables´ data points to identify distributions.
     - Discover correlation and causation between features.
     - Answer initial questions.
+
+5. Model
+    - Create models to represent density of each data job in german cities.
+    - Evaluate models
 
 5. Create Dashboard in Tablau
 
@@ -118,6 +122,16 @@ Results
 
 Future Work
 ------------
+
+Last Update
+------------
+2023-02-09 by Gabriela Rodriguez
+
+🔗 Links
+------------
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://gabrielarscp.wixsite.com/gabsdatascience/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielasanta/)
+
 
 
 --------
